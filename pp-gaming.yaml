@@ -1,0 +1,23 @@
+# CONTOH FORMAT
+# https://blog.vpngame.com/openwrt/kumpulan-daftar-format-akun-untuk-openclash/
+proxies:
+
+ 
+
+  - name: PelerePanjang
+    server: support.zoom.us
+    port: 443
+    type: trojan
+    password: 970e42fb-afda-44b2-952d-4131e981c358
+    skip-cert-verify: true
+    sni: support.zoom.us.sabdo.palon.cloud
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: support.zoom.us.sabdo.palon.cloud
+    udp: true
+
+
+
+
