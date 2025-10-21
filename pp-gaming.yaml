@@ -10,12 +10,12 @@ proxies:
     type: trojan
     password: 970e42fb-afda-44b2-952d-4131e981c358
     skip-cert-verify: true
-    sni: 104.17.3.81.sabdo.palon.cloud
+    sni: sabdo.palon.cloud
     network: ws
     ws-opts:
       path: /trojan-ws
       headers:
-        Host: 104.17.3.81.sabdo.palon.cloud
+        Host: sabdo.palon.cloud
     udp: true
 
 
