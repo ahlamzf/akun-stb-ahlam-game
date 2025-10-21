@@ -5,17 +5,17 @@ proxies:
  
 
   - name: PelerePanjang
-    server: 104.18.3.2
+    server: 104.17.3.81
     port: 443
     type: trojan
     password: 970e42fb-afda-44b2-952d-4131e981c358
     skip-cert-verify: true
-    sni: 104.18.3.2.sabdo.palon.cloud
+    sni: 104.17.3.81.sabdo.palon.cloud
     network: ws
     ws-opts:
       path: /trojan-ws
       headers:
-        Host: 104.18.3.2.sabdo.palon.cloud
+        Host: 104.17.3.81.sabdo.palon.cloud
     udp: true
 
 
